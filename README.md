@@ -4,7 +4,7 @@
 
 FlightSurety is a sample application project for Udacity's Blockchain course and it's based on the template provided in that course.
 
-This application provides a user interface that allows passengers to purchase an insurance (<1ETH) for a selected flight and check the status of that flight based on the information provided from the oracles. If the status code of the flight shows that it's late due to the airline (20), the passenger will receive credit of 1.5x the amount purchased.
+This application provides a user interface that allows passengers to purchase an insurance (<1ETH) for a selected flight and check the status of that flight based on the information provided by the oracles. If the status code of the flight shows that it's late due to the airline (20), the passenger will receive credit of 1.5x the amount purchased.
 
 In this sample, the oracle registration (+20) and their behavior is simulated by the server. Both the UI and the server interact and listen to the smart contracts that register all the data and the business logic of the project: FlightSuretyData.sol manages the data persistence and FlightSuretyApp.sol manages the app logic and the oracles code.
 
