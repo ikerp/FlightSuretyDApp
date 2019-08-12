@@ -5,15 +5,37 @@ body {
 }
 
 .container {
-    margin-top: 400px;
+    margin-top: 600px;
     background-color: #000;
     opacity: 0.9;
     color: #fff;
     padding: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.console {
+    margin-top: 20px;
+    background-color: #000;
+    opacity: 0.9;
+    color: #fff;
+    padding: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.containerB {
+    margin-top: 600px;
+    background-color: #000;
+    opacity: 0.9;
+    color: #fff;
+    padding: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .top-20 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 h5 {
@@ -34,9 +56,29 @@ section {
 }
 
 label.form {
-    font-size: 14px;
+    font-size: 25px;
     margin-right: 20px;
 }
+
 input {
-    margin-right: 30px;
+    margin-left: 200px;
+    width: 40px;
+    text-align: right;
+}
+
+.btn-primary {
+    font-size: 19px;
+}
+
+.eth {
+    color: #4b4b4b;
+    margin-left: 5px;
+}
+
+.btn-oracles {
+    margin-left: 200px;
+}
+
+.label-flight {
+    margin-left: 50px;
 }

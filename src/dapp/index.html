@@ -19,12 +19,23 @@
         </button>
     </nav>
 
-    <main class="container">
-
-        <div id="display-wrapper" class="top-20">
-        </div>
+    <main class="containerB">
         <div class="row top-20">
-            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+            <label class="form label-flight">Flight</label> 
+            <select class="btn" id="flight-id">
+                <option value="VY3946">VY3946</option>
+                <option value="VY3949">VY3949</option>
+                <option value="SK1040">SK1040</option>
+                <option value="DY4064">DY4064</option>
+            </select>
+            <input type="text" id="amount"><label class="form eth">ETH</label>
+            <btn class="btn btn-primary" id="purchase-insurance">Purchase insurance</btn>
+            <btn class="btn btn-primary btn-oracles" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+    </main>
+
+    <main class="console">
+        <div id="display-wrapper-b" class="top-20">
         </div>
     </main>
 
